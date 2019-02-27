@@ -1,0 +1,14 @@
+.App {
+  padding: 1rem;
+  background-color: lightgrey;
+}
+
+.friendcard {
+  color: white;
+  margin: 1rem 20%;
+  padding-left: 5%;
+  border: 1px solid rgba(63, 114, 155, 1);
+  border-radius: 1rem;
+  background-color: rgba(63, 114, 155, 0.9);
+  box-shadow: 10px 10px 10px grey;
+}
