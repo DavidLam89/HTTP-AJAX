@@ -1,10 +1,10 @@
 import React from 'react';
 
-function FriendsList(props) {
+function FriendsList({ friends, setUpdateFriend }) {
   return (
     <div>
-      {props.friends.map(friend => (
-          <div className='friendcard'>
+      {friends.map(friend => (
+          <div className='friendcard' onClick={e => setUpdateFriend(e, friend)}>
             <h3>{friend.name}</h3>
             <p>Age: {friend.age}</p>
             <p>Email: {friend.email}</p>
